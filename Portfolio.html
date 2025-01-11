@@ -1,18 +1,121 @@
 <!DOCTYPE html>
-<html> 
-  <head>
-    <title>Kleurmodellen het begin</title>
-    <meta charset="utf-8">
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Rover Mul</title>
+  <style>
+    /* Algemene stijlen voor de pagina */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: grey;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 36px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    /* Portfolio sectie */
+    .portfolio {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      flex-wrap: wrap; /* Zorgt ervoor dat de vakjes naast elkaar staan */
+    }
+
+    .project {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      width: 30%; /* Elke projectvak krijgt 30% van de breedte */
+      margin-bottom: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .project img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .project h3 {
+      margin-top: 10px;
+      font-size: 24px;
+    }
+
+    .project p {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    .project a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .project a:hover {
+      background-color: #2980b9;
+    }
+
+    /* Stijlen voor de Back to Home knop */
+    .back-home-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: grey; /* Grijze achtergrondkleur */
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      text-align: center;
+      transition: background-color 0.3s;
+    }
+
+    .back-home-btn:hover {
+      background-color: #7f7f7f; /* Donkerder grijs bij hover */
+    }
+
+  </style>
 </head>
 <body>
-  <h2>Portfolio</h2
-  
-<br>
-<ul> 
-    <li><a href="index.html">Home</a></li> <!--link terug naar homepage-->
-    <li><a href="Portfolio.html">Portfolio</a></li>
-    <li><a href="kleurmodellen.html">kleurmodellen</a></li>
-</ul>
-  
+  <header>
+    <h1>Portfolio Rover Mul</h1>
+    <p>Hier onder zie je welke projecten ik allemaal heb gedaan</p>
+  </header>
+
+  <section class="portfolio">
+    <div class="project">
+      <h3>Educatieve applicatie</h3>
+      <p>Educatieve applicatie over drielagenmodel en een specifiek onderwerp</p>
+      <a href="Educatieve applicatie.html">Zie het project</a>
+    </div>
+
+    <!-- Voeg meer projectvakken toe hier als nodig -->
+  </section>
+
+  <!-- Back to Home button -->
+  <a href="index.html" class="Home">Back to Home</a>
+
 </body>
 </html>
